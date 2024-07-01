@@ -21,7 +21,7 @@ import java.util.Map;
 public class RequestMethodTest {
     HttpClientUtil httpClientUtil;
     String url;
-    String filePath = "src/main/resources/testdata.xls";
+    String filePath = "src/main/resources/testdata1.xls";
 
     @BeforeTest
     public void setUp(){

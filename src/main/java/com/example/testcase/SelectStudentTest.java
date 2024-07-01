@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class SelectStudentTest {
     HttpClientUtil httpClientUtil;
     String url;
-    String filePath = "src/main/resources/testdata.xls";
+    String filePath = "src/main/resources/testdata1.xls";
 
     @Test
     public void selectStudentSuccessTest() throws Exception {

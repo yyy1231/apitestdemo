@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class InsertUserTest {
     HttpClientUtil httpClientUtil;
     String url;
-    String filePath = "src/main/resources/testdata.xls";
+    String filePath = "src/main/resources/testdata1.xls";
 
     @BeforeTest
     public void setUp(){

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class InsertStudentTest {
     HttpClientUtil httpClientUtil;
     String url;
-    String filePath = "src/main/resources/testdata.xls";
+    String filePath = "src/main/resources/testdata1.xls";
 
     @Test
     public void insertStudentSuccessTest() throws Exception {

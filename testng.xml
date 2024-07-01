@@ -2,15 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="suite1">
     <test verbose="2" preserve-order="true" name="test1">
+        <parameter name="page" value="2"></parameter>
         <classes>
-            <class name="com.example.testcase.RequestMethodTest">
-                <methods>
-                    <include name="getUserListTest"/>
-                    <include name="insertUserTest"/>
-                    <include name="postByFormTest"/>
-                    <include name="putTest"/>
-                    <include name="deleteTest"/>
-                </methods>
+            <class name="com.example.testcase.RequestMethodTest2">
             </class>
         </classes>
     </test>

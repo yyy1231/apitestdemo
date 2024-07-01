@@ -22,7 +22,7 @@ public class HttpClientUtil {
     private RequestConfig requestConfig;
     public String HTTPSTATUS = "HttpStatus";
 
-    public HttpClientUtil() {
+    public     HttpClientUtil() {
         requestConfig = RequestConfig.custom().setConnectTimeout(5000).
                 setConnectionRequestTimeout(1000).setSocketTimeout(10000).build();
     }
