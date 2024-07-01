@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+    <test verbose="2" preserve-order="true" name="test1">
+        <classes>
+            <class name="com.example.testcase.RequestMethodTest">
+                <methods>
+                    <include name="getUserListTest"/>
+                    <include name="insertUserTest"/>
+                    <include name="postByFormTest"/>
+                    <include name="putTest"/>
+                    <include name="deleteTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

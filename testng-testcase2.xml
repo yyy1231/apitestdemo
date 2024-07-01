@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test thread-count="5" name="ApiTestDemo">
+    <classes>
+      <class name="com.example.testcase2.module01.Api02Test"/>
+      <class name="com.example.testcase2.module01.Api01Test"/>
+      <class name="com.example.testcase2.module02.Api03Test"/>
+      <class name="com.example.testcase2.module02.Api04Test"/>
+      <class name="com.example.testcase2.module03.Api05Test"/>
+      <class name="com.example.testcase2.module03.Api06Test"/>
+    </classes>
+  </test> <!-- ApiTestDemo -->
+</suite> <!-- Default Suite -->
