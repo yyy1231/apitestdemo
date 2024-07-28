@@ -12,7 +12,7 @@ public class Api02Test {
 
     @Test
     public void api02_01Test(){
-        System.out.println("api02_01Test()");
+        System.out.println("api02_01Test()0728");
     }
 
     @Test
