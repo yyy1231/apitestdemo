@@ -1,14 +1,20 @@
 package com.example.entity;
 
-public class Student {
-    String name = "洋洋";
-    int age = 19;
-    public void study(){
-        System.out.println("hello yangyu branch0701");
-    }
+import lombok.Data;
+import java.util.Date;
 
-    public static void main(String[] args) {
-        Student student = new Student();
-        student.study();
-    }
+
+@Data
+public class Student {
+
+    private int sno;
+
+
+    private String sname;
+
+
+    private String ssex;
+
+    private Date sbirthday;
+    private String clazz;
 }
